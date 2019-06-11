@@ -33,10 +33,10 @@ public class CapturarTemperaturaTest {
 		HomePage homePage = new HomePage(driver);
 		String temp = homePage.catchTemperature();
 		
-		homePage.openPage();
+		homePage.openPageHotmail();
 				
 		homePage.clickEnterEmail()
-				.login("matheusdegoisfidelis@hotmail.com", "Al@14789562")
+				.login("matheusdegoisfidelis@hotmail.com", "/////")
 				.clickNewMessage().writeEmail("matheusdegoisfidelis@hotmail.com", "Teste", "Funcionou, a temperatura atual é: " + temp);
 		
 		

@@ -25,7 +25,7 @@ public class HomePage extends BasePage {
 		
 	}
 	
-	public void openPage() {
+	public void openPageHotmail() {
 		driver.navigate().to("https://outlook.live.com/owa/");
 	}
 	
